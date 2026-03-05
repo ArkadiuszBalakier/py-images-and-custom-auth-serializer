@@ -28,7 +28,7 @@ class Genre(models.Model):
 
 
 class Actor(models.Model):
-    first_name = models.CharField(max_length=255)
+    first_name = models.CharField()
     last_name = models.CharField(max_length=255)
 
     def __str__(self):
